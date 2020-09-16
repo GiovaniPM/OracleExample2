@@ -1,10 +1,10 @@
 object Form1: TForm1
   Left = 315
-  Height = 112
+  Height = 162
   Top = 156
   Width = 234
   Caption = 'Form1'
-  ClientHeight = 112
+  ClientHeight = 162
   ClientWidth = 234
   OnActivate = FormActivate
   LCLVersion = '7.2'
@@ -15,14 +15,12 @@ object Form1: TForm1
     Width = 80
     Caption = 'DatabaseName'
     ParentColor = False
-    OnClick = Label1Click
   end
   object Edit1: TEdit
     Left = 118
     Height = 23
     Top = 8
     Width = 112
-    Enabled = False
     TabOrder = 0
     Text = 'Edit1'
   end
@@ -55,7 +53,6 @@ object Form1: TForm1
     Height = 23
     Top = 32
     Width = 112
-    Enabled = False
     TabOrder = 1
     Text = 'Edit2'
   end
@@ -64,7 +61,6 @@ object Form1: TForm1
     Height = 23
     Top = 56
     Width = 112
-    Enabled = False
     TabOrder = 2
     Text = 'Edit3'
   end
@@ -73,8 +69,16 @@ object Form1: TForm1
     Height = 23
     Top = 80
     Width = 112
-    Enabled = False
     TabOrder = 3
     Text = 'Edit4'
+  end
+  object ToggleBox1: TToggleBox
+    Left = 152
+    Height = 25
+    Top = 120
+    Width = 75
+    Caption = 'Update'
+    OnChange = ToggleBox1Change
+    TabOrder = 4
   end
 end
