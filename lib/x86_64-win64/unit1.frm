@@ -3,7 +3,7 @@ object Form1: TForm1
   Height = 162
   Top = 156
   Width = 234
-  Caption = 'Form1'
+  Caption = 'Configura acesso ao DB'
   ClientHeight = 162
   ClientWidth = 234
   OnActivate = FormActivate
